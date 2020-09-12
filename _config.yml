@@ -1,5 +1,5 @@
 # Site settings
-url: http://akairingoart.github.io #use https
+url: https://akairingoart.github.io #use https
 
 # Blog settings
 markdown: kramdown
