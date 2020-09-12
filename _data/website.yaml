@@ -1,0 +1,56 @@
+#   This file contains settings and minor data entries for the website
+#
+#   base_title – default web page title (shown in web search and tab name)
+#     Title format: [base_title] | [page.title (if present)]
+#   current_year – used for footer copyright
+#   meta – SEO tags
+#   menu – site navigation shown in header and footer
+#   contact – personal contact information
+
+base_title: AkaiRingoArt
+current_year: 2020
+
+meta:
+  description: "Art by AkaiRingoArt"
+  keywords: "AkaiRingo, AkaiRingoArt, Akai Ringo, Art, Artist, Painting, Personal, Inspiring, Creative"
+  author: Akai Ringo
+
+#   Change the corresponding *.html file name in root folder after editing the menu url shortcut
+#   For instance:
+#   '/research' url will open 'reseach.html' page and will be displayed in the browser as [website_url]/research
+menu:
+  # - title: Homepage
+  #   url: /
+  # - title: Research
+  #   url: /research
+  # - title: Projects
+  #    url: /projects
+  # - title: Teaching
+  #   url: /teaching
+  # - title: Bio
+  #   url: /bio
+  # - title: Updates
+  #   url: /updates
+
+contact:
+  email: akairingoart@gmail.com
+
+# image_placeholder_settings:
+#   local_placeholder: /assets/images/placeholders/stripes-transparent.png # placeholder image for entries without image property
+#   use_random_online: false #use random online image instead of local_placeholder
+
+tag_styles:
+  - name: green
+    css: "badge-green"
+  - name: red
+    css: "badge-red"
+  - name: orange
+    css: "badge-orange"
+  - name: yellow
+    css: "badge-yellow"
+  - name: cyan
+    css: "badge-cyan"
+  - name: magenta
+    css: "badge-magenta"
+  - name: violet
+    css: "badge-violet"
